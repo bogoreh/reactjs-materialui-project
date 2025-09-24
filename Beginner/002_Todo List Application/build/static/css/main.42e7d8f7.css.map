@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.42e7d8f7.css","mappings":"AAAA,KAEE,kDAA6D,CAD7D,gBAEF,CAEA,WAEE,UAAW,CADX,4BAEF","sources":["App.css"],"sourcesContent":[".App {\n  min-height: 100vh;\n  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);\n}\n\n.completed {\n  text-decoration: line-through;\n  color: #888;\n}"],"names":[],"sourceRoot":""}
