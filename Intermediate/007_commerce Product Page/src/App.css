@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.product-image {
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+.color-swatch {
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
+}
+
+.color-swatch.selected {
+  border-color: #2E8B57;
+  box-shadow: 0 4px 8px rgba(46, 139, 87, 0.3);
+}
+
+.size-option {
+  transition: all 0.3s ease;
+}
+
+.size-option:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.size-option.selected {
+  background-color: #2E8B57;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(46, 139, 87, 0.3);
+}
+
+.cart-item {
+  transition: all 0.3s ease;
+}
+
+.cart-item:hover {
+  background-color: #f8f9fa;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.cart-drawer {
+  animation: slideIn 0.3s ease-out;
+}
